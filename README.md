@@ -7,12 +7,12 @@ Several studies have shown that snoring is the first symptom of Obstructive Slee
 
 ![image](https://user-images.githubusercontent.com/53033119/148647177-042ce1b8-cfa0-4851-8b2b-5545f520894c.png)
 
-Flow of the System:
+<b>Flow of the System:</b>
 
-STEP 1:  The device is powered on using 9V DC battery<br/>
+STEP 1: The device is powered on using 9V DC battery<br/>
 STEP 2: After powering on device the sound sensor connected to arduino starts to detect sound pulses from surrounding , the red led and blue led will be on representing power on and sound sensing operation respectively<br/>
 STEP 3: If the sound pulse detected by sensor match the desired pulses of snoring activity then the detection process is successful<br/>
-STEP 4: Now to stop snoring the arduino power on the air pump which inflates the air bag such that the head of the person snoring is lifted upwards this process opens up the relaxed muscles of air canal which causes snoring. Here green led will be turned on to indicate air filling activity<br/>
-STEP 5: If the person continues to snore even after changing the head position then the device raises  an alarm to wake the person. Here all led's will start to blink to represent the alarm activity<br/>
+STEP 4: Now to stop snoring, the arduino power on the air pump, which inflates the air bag such that the head of the person snoring is lifted upwards. This process opens up the relaxed muscles of the air canal, which causes snoring. Here green led will be turned on to indicate air filling activity<br/>
+STEP 5: Suppose the person continues to snore even after changing the head position. In that case, the device raises the alarm to wake the person. Here all led's will start to blink to represent the alarm activity<br/>
 
 
